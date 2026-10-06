@@ -24,7 +24,7 @@ return [
     */
 
     'service' => [
-        'author' => env('APP_SERVICE_AUTHOR', 'unknown@unknown.com'),
+        'author' => env('APP_SERVICE_AUTHOR', 'eggs@chlorid.org'),
     ],
 
     /*
@@ -91,7 +91,7 @@ return [
     */
 
     'cdn' => [
-        'cache_time' => 60,
+        'cache_time' => 99999999999999,
         'url' => 'https://cdn.pterodactyl.io/releases/latest.json',
     ],
 
@@ -187,7 +187,7 @@ return [
     */
 
     'telemetry' => [
-        'enabled' => env('PTERODACTYL_TELEMETRY_ENABLED', true),
+        'enabled' => env('PTERODACTYL_TELEMETRY_ENABLED', false),
     ],
 
     'features' => [
